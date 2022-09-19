@@ -3,8 +3,8 @@
 Nameco is a tiny name generator. It could also be a word generator, if it wanted
 to, but at the moment it has no such wish.
 
-Nameco is also a pun on video game company, Namco. Nameco is not Namco; it is
-merely a tiny name generator.
+Nameco is also a pun on the video game company, Namco. Nameco is not Namco; it
+is merely a tiny name generator.
 
 Nameco is based on Docker's
 [namesgenerator](https://pkg.go.dev/github.com/moby/moby/pkg/namesgenerator).
