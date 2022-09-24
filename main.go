@@ -4,10 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 	"os"
-	"strings"
 	"time"
-
-	"github.com/moby/moby/pkg/namesgenerator"
 )
 
 func main() {
@@ -22,12 +19,9 @@ func main() {
 
 	switch command {
 	case "name":
-		out = namesgenerator.GetRandomName(0)
+		out = MobyName()
 	case "word":
-		parts := strings.Split(namesgenerator.GetRandomName(0), "_")
-		if len(parts) > 0 {
-			out = parts[0]
-		}
+		out = MobyWord()
 	}
 
 	if out == "" {
